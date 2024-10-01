@@ -46,7 +46,7 @@ function SelectStyle({onUserSelect}) {
               className="h-48 w-full object-cover rounded-lg"
               onClick={() => {
                 setSelectedOption(item.name)
-                onUserSelect('imageStyle',item.image)
+                onUserSelect(item.name,'imageStyle')
                 
               }}
             />

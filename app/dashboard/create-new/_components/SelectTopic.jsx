@@ -27,7 +27,7 @@ function SelectTopic({onUserSelect}) {
       <Select
         onValueChange ={(value) => {
           setSelectedOption(value)
-          value != 'Custom Prompt' && onUserSelect('topic',value)
+          value != 'Custom Prompt' && onUserSelect(value,'topic')
         }}
       >
         <SelectTrigger className="mt-3 w-full text-lg p-6">

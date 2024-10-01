@@ -14,7 +14,7 @@ function SelectDuration({onUserSelect}) {
       <p className="text-gray-500">Select the duration of your video</p>
       <Select
         onValueChange ={(value) => {
-          onUserSelect('duration',value)
+          onUserSelect(value,'duration')
         }}
       >
         <SelectTrigger className="mt-3 w-full text-lg p-6">
