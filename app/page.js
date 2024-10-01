@@ -6,7 +6,6 @@ export default function Home() {
     <div>
       <h2>Subscribe </h2>
       <Button>Subscribe</Button>
-      <UserButton afterSwitchSessionUrl="/"/>
     </div>
   );
 }

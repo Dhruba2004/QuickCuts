@@ -18,7 +18,7 @@ function SideNav() {
     {
       id: 2,
       name: "Create New",
-      path: "/create-new",
+      path: "/dashboard/create-new",
       icon: PanelsTopLeft,
     },
     {
@@ -35,7 +35,7 @@ function SideNav() {
     },
   ];
   return (
-    <div className="shadow-md w-64 h-screen p-5">
+    <div className=" dark:bg-background dark:border-r-2 shadow-md w-64 h-screen p-5">
       <div className="grid gap-2">
         {MenuOptions.map((item, index) => (
             <Link href={item.path}>

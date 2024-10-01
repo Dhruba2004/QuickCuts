@@ -2,6 +2,7 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Provider from "./provider";
 import {Outfit} from 'next/font/google'
+import { ThemeProvider } from "next-themes";
 
 
 
@@ -19,7 +20,10 @@ export default function RootLayout({ children }) {
           className={outfit.className}
         >
           <Provider>
-          {children}
+            <ThemeProvider attribute="class">
+            {children}
+            </ThemeProvider>
+         
           </Provider>
           
         </body>
