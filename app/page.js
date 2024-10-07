@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <section>
-      <div className="p-3 px-5 flex items-center justify-between shadow-md flex-wrap">
+      <div className="p-3 px-5 flex items-center justify-between shadow-md">
         <div className="flex gap-3 items-center">
           <Image src={"/logo.svg"} alt="logo" height={30} width={30} />
           <Link href={"/"}>
@@ -21,7 +21,7 @@ export default function Home() {
           <UserButton />
         </div>
       </div>
-      <div className="mt-[7rem]">
+      <div className="mt-[7rem] p-4">
       <h2 className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         Build Your Short Video <span className="text-violet-700">With AI</span>
       </h2>

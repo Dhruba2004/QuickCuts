@@ -5,6 +5,7 @@
   "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",
+  "description":"AI powered short video generator",
   "scope": "/",
   "start_url": "/",
   "icons": [
