@@ -21,7 +21,7 @@ export default function Home() {
           <UserButton />
         </div>
       </div>
-      <div className="mt-[7rem] p-4">
+      <div className="mt-[12rem] p-4">
       <h2 className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         Build Your Short Video <span className="text-violet-700">With AI</span>
       </h2>
