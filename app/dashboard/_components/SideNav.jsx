@@ -35,7 +35,7 @@ function SideNav() {
     },
   ];
   return (
-    <div className=" dark:bg-background dark:border-r-2 shadow-md w-64 h-screen p-5">
+    <div className=" dark:bg-background shadow-md w-64 h-screen p-5">
       <div className="grid gap-2">
         {MenuOptions.map((item, index) => (
             <Link href={item.path}>
