@@ -8,6 +8,24 @@
   "description":"AI powered short video generator",
   "scope": "/",
   "start_url": "/",
+  
+  "share_target": {
+
+  "action": "/dashboard",
+  
+  "method": "GET",
+  
+  "params": {
+  
+  "title": "title",
+  
+  "text": "text",
+  
+  "url": "url"
+  
+  }
+  
+  } ,
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
@@ -50,4 +68,5 @@
       "type": "image/png"
     }
   ]
+  
 }
