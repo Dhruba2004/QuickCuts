@@ -13,7 +13,7 @@
 
   "action": "/dashboard",
   
-  "method": "GET",
+  "method": "POST",
   
   "params": {
   
